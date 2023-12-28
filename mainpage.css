@@ -1,0 +1,143 @@
+
+.heading{
+    display: flex;
+}
+.navbar,ul,li{
+    display: inline;
+}
+.navbar ul li :hover{
+    color: rgb(245, 4, 4);
+}
+.navbar{
+    margin-left: 50%;
+    word-spacing: 15px;
+    font-size: 18px;
+    margin-top: 5%;
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+.wellcome{
+    background-image: url('images/red-blood-cells-3188223_1920.jpg');
+    height: 350px;
+}
+.wellcome1{
+    border: 1px solid black;
+    width: 450px;
+    color: rgb(202, 200, 199);
+    padding: 10px;
+    background-color: rgb(100, 7, 7);
+    border-radius: 10px;
+}
+.para1{
+    width: 600px;
+    color: white;
+    word-spacing: 5px;
+    line-height: 25px;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.images{
+    display: flex;   
+}
+.table{
+    width: 650px;
+    height: 400px;
+    text-align: center;
+}
+.bloodavailable h2{
+    color: red;
+}
+.bloodavailable{
+    display: flex;
+    margin: 20px;
+}
+.camp{
+    margin-left: 55px;
+}
+.camp input{
+    padding: 8px;
+    margin: 2px;
+}
+.camp button{
+    width: 130px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    color: white;
+    margin-left: 5px;
+    font: bold;
+    margin: 5px;
+    border-radius: 5px;
+}
+.camp a{
+    text-decoration: none;
+    color: red;
+}
+.aboutdonation{
+    display: flex;
+}
+.aboutdonationh2{
+    color: red;
+}
+.learndonation{
+    width: 650px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+.learndonation button{
+    width: 130px;
+    height: 40px;
+    background-color: red;
+    border: none;
+    color: white;
+    margin-left: 5px;
+    font: bold;
+    border-radius: 5px;
+}
+.bloodtype{
+    margin-left: 40px;
+}
+.bloodtype h3{
+    color: red;
+}
+.bloodtype table{
+    width: 500px;
+    height: 350px;
+    text-align: start;
+}
+.organize{
+    display: flex;
+}
+.organize h3{
+    color: red;
+}
+.foot-nav a{
+    text-decoration: none;
+    color: red;
+}
+.foot-nav:hover, a :active {
+    text-decoration: underline;
+}
+.foot-nav{
+    display: flex;
+    margin: 0%;
+    height: 30px;
+}
+.footer{
+    display: flex;
+}
+.foot{
+    margin-left: 400px;
+}
+.back button{
+    background-color: red;
+}
+.back a{
+    text-decoration: none;
+    color: white;
+}
+.back{
+    margin-left: 92%;
+}
